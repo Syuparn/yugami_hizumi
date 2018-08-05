@@ -1,0 +1,58 @@
+.widetext {
+  transform: scale(3,1);
+  transform-origin: 0 0;
+  font-size: 50pt;
+  line-height: 50pt;
+}
+
+.widecenter {
+  width: 33%;
+  text-align: center;
+}
+
+.center {
+  width: 100%;
+  text-align: center;
+}
+
+.startbutton {
+  transform: scale(3,3);
+  transform-origin: 0 0;
+}
+
+.orderhorisontal {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.samewidthtable {
+  table-layout: fixed;
+  width: 100%;
+  text-align: center;
+}
+
+.status {
+  font-size: 30pt;
+}
+
+.keyintro {
+  font-size: 35pt;
+}
+
+.normaltext {
+  font-size: 18pt;
+}
+
+.flatbutton {
+  border: solid 2px #000000;
+  border-radius: 2px;
+  color: #000000;
+  background-color: #FFFFFF;
+}
+
+.flatbutton:hover {
+  background-color: #000000;
+  color: #FFFFFF;
+  cursor : pointer;
+}
